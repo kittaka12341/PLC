@@ -5,7 +5,7 @@ using UIContents.Views;
 
 namespace UIContents
 {
-    public class UIContentsModule : IModule
+    public class ServerSimulatorModule : IModule
     {
         public void OnInitialized(IContainerProvider containerProvider)
         {

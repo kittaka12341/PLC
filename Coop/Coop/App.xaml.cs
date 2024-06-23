@@ -1,7 +1,4 @@
-﻿using Coop.Views;
-using Prism.Ioc;
-using System.Windows;
-using UIContents.Models;
+﻿
 
 namespace Coop
 {
@@ -17,7 +14,9 @@ namespace Coop
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
-            containerRegistry.Register<ServerSimData>();
+            ServerSimData serverSimData = new ServerSimData();
+            containerRegistry.RegisterInstance(serverSimData);
+            containerRegistry.Register<IClientSender, ServerSimulatorClient>();
         }
     }
 }

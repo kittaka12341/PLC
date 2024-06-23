@@ -11,3 +11,5 @@
 /Coop/UIContents/bin/Debug/net6.0-windows
 /Coop/UIContents/obj
 *.bkp
+/Coop/ClientCommunicator/bin/Debug/net6.0-windows
+/Coop/ClientCommunicator/obj
