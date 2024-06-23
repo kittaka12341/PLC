@@ -1,6 +1,4 @@
-﻿
-
-namespace Coop
+﻿namespace Coop
 {
     /// <summary>
     /// Interaction logic for App.xaml

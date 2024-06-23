@@ -1,12 +1,4 @@
-﻿using Prism.Mvvm;
-using Prism.Regions;
-using Reactive.Bindings;
-using Reactive.Bindings.Extensions;
-using System.Diagnostics;
-using System.Reactive.Disposables;
-using ServerSimulator.Views;
-
-namespace Coop.ViewModels
+﻿namespace Coop.ViewModels
 {
     public class MainWindowViewModel : BindableBase
     {

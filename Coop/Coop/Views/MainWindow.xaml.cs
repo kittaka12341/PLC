@@ -1,6 +1,4 @@
-﻿using System.Windows;
-
-namespace Coop.Views
+﻿namespace Coop.Views
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

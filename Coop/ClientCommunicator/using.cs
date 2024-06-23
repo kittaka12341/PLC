@@ -1,1 +1,10 @@
 ﻿global using ClientCommunicator.Interfaces;
+global using System.Linq;
+global using System.Threading;
+global using System.Threading.Tasks;
+global using ServerSimulator.Models;
+global using Prism.Commands;
+global using Prism.Mvvm;
+global using Prism.Ioc;
+global using Prism.Modularity;
+global using Prism.Regions;

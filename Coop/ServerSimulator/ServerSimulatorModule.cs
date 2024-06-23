@@ -1,9 +1,4 @@
-﻿using Prism.Ioc;
-using Prism.Modularity;
-using Prism.Regions;
-using ServerSimulator.Views;
-
-namespace ServerSimulator
+﻿namespace ServerSimulator
 {
     public class ServerSimulatorModule : IModule
     {

@@ -1,6 +1,13 @@
-﻿global using Coop.Views;
-global using Prism.Ioc;
-global using System.Windows;
-global using ClientCommunicator.Interfaces;
+﻿global using ClientCommunicator.Interfaces;
 global using ClientCommunicator.Implement;
+global using Coop.Views;
+global using Prism.Ioc;
+global using Prism.Mvvm;
+global using Prism.Regions;
+global using Reactive.Bindings;
+global using Reactive.Bindings.Extensions;
+global using ServerSimulator.Views;
+global using System.Diagnostics;
+global using System.Reactive.Disposables;
 global using ServerSimulator.Models;
+global using System.Windows;

@@ -1,9 +1,4 @@
-﻿using System.Linq;
-using System.Threading;
-using System.Threading.Tasks;
-using ServerSimulator.Models;
-
-namespace ClientCommunicator.Implement
+﻿namespace ClientCommunicator.Implement
 {
     public class ServerSimulatorClient : IClientSender
     {

@@ -1,18 +1,4 @@
-﻿using Prism.Commands;
-using Prism.Mvvm;
-using Reactive.Bindings;
-using Reactive.Bindings.Extensions;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Diagnostics;
-using System.Linq;
-using System.Reactive.Disposables;
-using System.Text;
-using System.Threading.Tasks;
-using ServerSimulator.Models;
-
-namespace ServerSimulator.ViewModels
+﻿namespace ServerSimulator.ViewModels
 {
     public class ServerSimViewModel : BindableBase, IDisposable
     {
