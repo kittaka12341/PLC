@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using UIContents.Models;
+using ServerSimulator.Models;
 
 namespace ClientCommunicator.Implement
 {

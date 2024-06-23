@@ -9,6 +9,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ClientCommunicator\ClientCommunicator.csproj" />
+    <ProjectReference Include="..\ServerSimulator\ServerSimulator.csproj" />
     <ProjectReference Include="..\UIContents\ServerSimulator.csproj" />
   </ItemGroup>
 </Project>

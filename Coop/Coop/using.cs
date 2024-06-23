@@ -3,4 +3,4 @@ global using Prism.Ioc;
 global using System.Windows;
 global using ClientCommunicator.Interfaces;
 global using ClientCommunicator.Implement;
-global using UIContents.Models;
+global using ServerSimulator.Models;

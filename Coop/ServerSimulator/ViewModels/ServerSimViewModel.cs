@@ -10,9 +10,9 @@ using System.Linq;
 using System.Reactive.Disposables;
 using System.Text;
 using System.Threading.Tasks;
-using UIContents.Models;
+using ServerSimulator.Models;
 
-namespace UIContents.ViewModels
+namespace ServerSimulator.ViewModels
 {
     public class ServerSimViewModel : BindableBase, IDisposable
     {

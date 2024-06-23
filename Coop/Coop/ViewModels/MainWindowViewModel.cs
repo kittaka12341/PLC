@@ -4,7 +4,7 @@ using Reactive.Bindings;
 using Reactive.Bindings.Extensions;
 using System.Diagnostics;
 using System.Reactive.Disposables;
-using UIContents.Views;
+using ServerSimulator.Views;
 
 namespace Coop.ViewModels
 {

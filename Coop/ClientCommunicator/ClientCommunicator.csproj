@@ -7,6 +7,6 @@
     <PackageReference Include="Prism.Wpf" Version="8.1.97" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\UIContents\ServerSimulator.csproj" />
+    <ProjectReference Include="..\ServerSimulator\ServerSimulator.csproj" />
   </ItemGroup>
 </Project>
