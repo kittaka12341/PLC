@@ -1,0 +1,13 @@
+﻿################################################################################
+# この .gitignore ファイルは Microsoft(R) Visual Studio によって自動的に作成されました。
+################################################################################
+
+/.vs
+/Coop/.vs
+/Coop/Coop/bin/Debug/net6.0-windows
+/Coop/Coop/obj
+/Coop/ServerSimulator/bin/Debug/net6.0-windows
+/Coop/ServerSimulator/obj
+/Coop/UIContents/bin/Debug/net6.0-windows
+/Coop/UIContents/obj
+*.bkp
