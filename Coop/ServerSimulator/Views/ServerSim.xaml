@@ -9,5 +9,33 @@
              xmlns:prism="http://prismlibrary.com/"
              prism:ViewModelLocator.AutoWireViewModel="True" >
     <Grid x:Name="MainGrid">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0"
+               Grid.Column="0"
+               Content="Register Server"/>
+        <Label Grid.Row="1"
+               Grid.Column="0"
+               Content="{Binding CurrentRegisterValue.Value}">
+        </Label>
+        <ItemsControl
+            Grid.Column="0"
+            Grid.Row="2"
+            ItemsSource="{Binding ToggleButtonProperties}">
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <ToggleButton
+                        Content="On/Off"
+                        IsChecked="{Binding Value, Mode=TwoWay}"
+                        Margin="1"/>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
     </Grid>
 </UserControl>

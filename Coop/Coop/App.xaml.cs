@@ -12,7 +12,7 @@
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
-            ServerSimData serverSimData = new ServerSimData();
+            ServerSimData serverSimData = new ServerSimData(1);
             containerRegistry.RegisterInstance(serverSimData);
             containerRegistry.Register<IClientSender, ServerSimulatorClient>();
         }
