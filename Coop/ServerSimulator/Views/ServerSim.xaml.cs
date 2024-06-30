@@ -5,11 +5,9 @@
     /// </summary>
     public partial class ServerSim : UserControl
     {
-        ServerSimViewModel vm;
-        public ServerSim(ServerSimViewModel _serverSimViewModel)
+        public ServerSim()
         {
             InitializeComponent();
-            vm = _serverSimViewModel;
         }
     }
 }

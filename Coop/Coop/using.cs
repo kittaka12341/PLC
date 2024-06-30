@@ -11,3 +11,4 @@ global using System.Diagnostics;
 global using System.Reactive.Disposables;
 global using ServerSimulator.Models;
 global using System.Windows;
+global using Details.Views;

@@ -13,3 +13,5 @@
 *.bkp
 /Coop/ClientCommunicator/bin/Debug/net6.0-windows
 /Coop/ClientCommunicator/obj
+/Coop/Details/bin/Debug/net6.0-windows7.0
+/Coop/Details/obj

@@ -7,11 +7,13 @@
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="10*"/>
             <ColumnDefinition Width="auto"/>
         </Grid.ColumnDefinitions>
         <StackPanel Orientation="Vertical">
             <Button Content="Read Devices" Command="{Binding ClickCommand}"/>
         </StackPanel>
-        <ContentControl prism:RegionManager.RegionName="ContentRegion" Grid.Column="1" />
+        <ContentControl prism:RegionManager.RegionName="CenterRegion" Grid.Column="1"/>
+        <ContentControl prism:RegionManager.RegionName="ContentRegion" Grid.Column="2" />
     </Grid>
 </Window>

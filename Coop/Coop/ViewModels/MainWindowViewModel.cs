@@ -20,6 +20,7 @@
             this.regionManager = _regionManager;
             this.clientSender = _clientSender;
             _regionManager.RegisterViewWithRegion("ContentRegion", typeof(ServerSim));
+            _regionManager.RegisterViewWithRegion("CenterRegion", typeof(ViewA));
 
             ClickCommand = new ReactiveCommand().AddTo(disposables);
 
